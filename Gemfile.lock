@@ -1,11 +1,11 @@
 GIT
-  remote: git://github.com/flingbob/acts_as_follower.git
+  remote: https://github.com/flingbob/acts_as_follower.git
   revision: 28a1f3f98ba7965a9b546aad8fdac325927989ee
   specs:
     acts_as_follower (0.1.1)
 
 GIT
-  remote: git://github.com/jasl/guard-delayed.git
+  remote: https://github.com/jasl/guard-delayed.git
   revision: d7bb1b89263b321917fb0084fbd255cf90c556a1
   specs:
     guard-delayed (0.2.2)
@@ -14,26 +14,26 @@ GIT
       guard (> 0.3)
 
 GIT
-  remote: git://github.com/norman/friendly_id.git
+  remote: https://github.com/norman/friendly_id.git
   revision: 9a2086d8f2e3260318470674104be3b1254c8b2d
   branch: master
   specs:
     friendly_id (5.0.0.beta1)
 
 GIT
-  remote: git://github.com/saberma/alipay.git
+  remote: https://github.com/saberma/alipay.git
   revision: 356eff558c1efcf3cf635710eaabc95d2d183445
   specs:
     alipay (0.0.2)
 
 GIT
-  remote: git://github.com/saberma/priceable.git
+  remote: https://github.com/saberma/priceable.git
   revision: 72f6322f798353ae2d740306bf4d38563a21e631
   specs:
     priceable (0.0.7)
 
 GIT
-  remote: git://github.com/scambra/devise_invitable.git
+  remote: https://github.com/scambra/devise_invitable.git
   revision: 9e5a9a7e0e5ad489206386865efdfca5b87de62b
   specs:
     devise_invitable (1.1.8)
@@ -41,7 +41,7 @@ GIT
       devise (>= 3.0.0.rc)
 
 GIT
-  remote: git://github.com/searls/jasmine-rails.git
+  remote: https://github.com/searls/jasmine-rails.git
   revision: d1140c3a6ba6947af0df3c865198b3555640b5c6
   specs:
     jasmine-rails (0.4.5)
@@ -50,7 +50,7 @@ GIT
       sprockets-rails
 
 GEM
-  remote: https://gems.ruby-china.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
