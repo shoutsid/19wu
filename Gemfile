@@ -26,7 +26,7 @@ if RUBY_VERSION =~ /1.9/
   Encoding.default_internal = Encoding::UTF_8
 end
 
-gem 'rails', '~> 4.0.0'
+gem 'rails', '4.0.13'
 gem 'slim-rails', '~> 1.1.1'
 gem 'simple_form', '~> 3.0.0.rc'
 gem 'ransack'
@@ -65,7 +65,7 @@ group mysql2_group do
   gem 'mysql2', '0.3.11'
 end
 
-gem 'devise', '~> 3.0.1'
+gem "devise", "~> 3.0.0"
 gem 'devise_invitable', git: 'https://github.com/scambra/devise_invitable.git', ref: '9e5a9a7e0e5ad489206386865efdfca5b87de62b'
 gem 'settingslogic'
 gem "delayed_job", "~> 4.0.0.beta2"
@@ -95,7 +95,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem "rspec-rails", "~> 2.14.0"
   gem 'jasmine-rails', git: 'https://github.com/searls/jasmine-rails.git', ref: 'd1140c3a6ba6947af0df3c865198b3555640b5c6'
   gem 'factory_girl_rails', '~> 4.0' # generator will use it in development.
   gem 'thin', '~> 1.5.0', :platform => [:ruby, :mswin, :mingw] # thin cannot run under jruby
@@ -107,7 +107,7 @@ end
 group :test do
   gem 'capybara'
   gem 'capybara-email'
-  gem 'database_cleaner', '1.0.1'
+  gem "database_cleaner", "~> 1.0"
   gem 'selenium-webdriver'
   gem 'poltergeist'
   gem 'simplecov', :require => false
@@ -116,7 +116,7 @@ group :test do
 end
 
 # group :assets do
-gem 'sass-rails',     '~> 4.0.0'
+gem "sass-rails", "~> 4.0.5"
 gem 'coffee-rails',   '~> 4.0.0'
 gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'uglifier',       '>= 1.3.0'
