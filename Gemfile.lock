@@ -1,12 +1,14 @@
 GIT
-  remote: git://github.com/flingbob/acts_as_follower.git
+  remote: https://github.com/flingbob/acts_as_follower.git
   revision: 28a1f3f98ba7965a9b546aad8fdac325927989ee
+  ref: 28a1f3f98ba7965a9b546aad8fdac325927989ee
   specs:
     acts_as_follower (0.1.1)
 
 GIT
-  remote: git://github.com/jasl/guard-delayed.git
+  remote: https://github.com/jasl/guard-delayed.git
   revision: d7bb1b89263b321917fb0084fbd255cf90c556a1
+  ref: d7bb1b89263b321917fb0084fbd255cf90c556a1
   specs:
     guard-delayed (0.2.2)
       daemons
@@ -14,35 +16,39 @@ GIT
       guard (> 0.3)
 
 GIT
-  remote: git://github.com/norman/friendly_id.git
+  remote: https://github.com/norman/friendly_id.git
   revision: 9a2086d8f2e3260318470674104be3b1254c8b2d
   branch: master
   specs:
     friendly_id (5.0.0.beta1)
 
 GIT
-  remote: git://github.com/saberma/alipay.git
+  remote: https://github.com/saberma/alipay.git
   revision: 356eff558c1efcf3cf635710eaabc95d2d183445
+  ref: 356eff558c1efcf3cf635710eaabc95d2d183445
   specs:
     alipay (0.0.2)
 
 GIT
-  remote: git://github.com/saberma/priceable.git
+  remote: https://github.com/saberma/priceable.git
   revision: 72f6322f798353ae2d740306bf4d38563a21e631
+  ref: 72f6322f798353ae2d740306bf4d38563a21e631
   specs:
     priceable (0.0.7)
 
 GIT
-  remote: git://github.com/scambra/devise_invitable.git
+  remote: https://github.com/scambra/devise_invitable.git
   revision: 9e5a9a7e0e5ad489206386865efdfca5b87de62b
+  ref: 9e5a9a7e0e5ad489206386865efdfca5b87de62b
   specs:
     devise_invitable (1.1.8)
       actionmailer (>= 3.2.6, < 5)
       devise (>= 3.0.0.rc)
 
 GIT
-  remote: git://github.com/searls/jasmine-rails.git
+  remote: https://github.com/searls/jasmine-rails.git
   revision: d1140c3a6ba6947af0df3c865198b3555640b5c6
+  ref: d1140c3a6ba6947af0df3c865198b3555640b5c6
   specs:
     jasmine-rails (0.4.5)
       jasmine-core (~> 1.3)
@@ -50,35 +56,35 @@ GIT
       sprockets-rails
 
 GEM
-  remote: https://gems.ruby-china.org/
+  remote: https://rubygems.org/
   specs:
-    actionmailer (4.0.0)
-      actionpack (= 4.0.0)
-      mail (~> 2.5.3)
-    actionpack (4.0.0)
-      activesupport (= 4.0.0)
+    actionmailer (4.0.13)
+      actionpack (= 4.0.13)
+      mail (~> 2.5, >= 2.5.4)
+    actionpack (4.0.13)
+      activesupport (= 4.0.13)
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    activemodel (4.0.0)
-      activesupport (= 4.0.0)
+    activemodel (4.0.13)
+      activesupport (= 4.0.13)
       builder (~> 3.1.0)
-    activerecord (4.0.0)
-      activemodel (= 4.0.0)
+    activerecord (4.0.13)
+      activemodel (= 4.0.13)
       activerecord-deprecated_finders (~> 1.0.2)
-      activesupport (= 4.0.0)
+      activesupport (= 4.0.13)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
-    activesupport (4.0.0)
-      i18n (~> 0.6, >= 0.6.4)
+    activesupport (4.0.13)
+      i18n (~> 0.6, >= 0.6.9)
       minitest (~> 4.2)
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     angularjs-rails (1.0.7)
-    arel (4.0.0)
-    atomic (1.1.12)
+    arel (4.0.2)
+    atomic (1.1.101)
     axlsx (2.0.0)
       htmlentities (~> 4.3.1)
       nokogiri (>= 1.4.1)
@@ -95,7 +101,7 @@ GEM
     bootstrap-timepicker-rails-addon (0.2.3.2)
       railties (>= 3.1, < 5.0)
     builder (3.1.4)
-    cancan (1.6.10)
+    cancancan (1.15.0)
     capistrano (2.15.5)
       highline
       net-scp (>= 1.0.0)
@@ -123,15 +129,16 @@ GEM
     china_sms (0.0.7)
     chronic (0.9.1)
     coderay (1.0.9)
-    coffee-rails (4.0.0)
+    coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0.beta, < 5.0)
+      railties (>= 4.0.0, < 5.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
     cohort_me (0.0.3)
     colorize (0.5.8)
+    concurrent-ruby (1.1.9)
     coveralls (0.6.7)
       colorize
       multi_json (~> 1.3)
@@ -139,13 +146,13 @@ GEM
       simplecov (>= 0.7)
       thor
     daemons (1.1.9)
-    database_cleaner (1.0.1)
-    delayed_job (4.0.0)
-      activesupport (>= 3.0, < 4.1)
-    delayed_job_active_record (4.0.0)
-      activerecord (>= 3.0, < 4.1)
+    database_cleaner (1.99.0)
+    delayed_job (4.0.6)
+      activesupport (>= 3.0, < 5.0)
+    delayed_job_active_record (4.0.3)
+      activerecord (>= 3.0, < 5.0)
       delayed_job (>= 3.0, < 4.1)
-    devise (3.0.2)
+    devise (3.0.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -158,9 +165,9 @@ GEM
     escape_utils (0.2.4)
     eventmachine (1.0.3)
     eventmachine (1.0.3-x86-mingw32)
-    exception_notification (4.0.0)
-      actionmailer (>= 3.0.4)
-      activesupport (>= 3.0.4)
+    exception_notification (4.4.0)
+      actionmailer (>= 4.0, < 7)
+      activesupport (>= 4.0, < 7)
     execjs (1.4.0)
       multi_json (~> 1.0)
     factory_girl (4.2.0)
@@ -205,7 +212,8 @@ GEM
     htmlentities (4.3.1)
     http_parser.rb (0.5.3)
     http_parser.rb (0.5.3-x86-mingw32)
-    i18n (0.6.5)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jasmine-core (1.3.1)
     jbuilder (1.5.0)
       activesupport (>= 3.0.0)
@@ -234,6 +242,9 @@ GEM
       rails (>= 3.1.0)
     method_source (0.8.2)
     mime-types (1.23)
+    mimemagic (0.3.9)
+      nokogiri (~> 1)
+      rake
     mini_magick (3.5.0)
       subexec (~> 0.2.1)
     mini_portile (0.5.1)
@@ -282,22 +293,22 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (4.0.0)
-      actionmailer (= 4.0.0)
-      actionpack (= 4.0.0)
-      activerecord (= 4.0.0)
-      activesupport (= 4.0.0)
+    rails (4.0.13)
+      actionmailer (= 4.0.13)
+      actionpack (= 4.0.13)
+      activerecord (= 4.0.13)
+      activesupport (= 4.0.13)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.0.0)
-      sprockets-rails (~> 2.0.0)
+      railties (= 4.0.13)
+      sprockets-rails (~> 2.0)
     rails-observers (0.1.2)
       activemodel (~> 4.0)
     rails-timeago (2.5.1)
       actionpack (>= 3.1)
       activesupport (>= 3.1)
-    railties (4.0.0)
-      actionpack (= 4.0.0)
-      activesupport (= 4.0.0)
+    railties (4.0.13)
+      actionpack (= 4.0.13)
+      activesupport (= 4.0.13)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.11.0)
@@ -318,8 +329,9 @@ GEM
     rspec-expectations (2.14.1)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.14.3)
-    rspec-rails (2.14.0)
+    rspec-rails (2.14.2)
       actionpack (>= 3.0)
+      activemodel (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
       rspec-core (~> 2.14.0)
@@ -332,10 +344,11 @@ GEM
     sanitize (2.0.6)
       nokogiri (>= 1.4.4)
     sass (3.2.10)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
-      sass (>= 3.1.10)
-      sprockets-rails (~> 2.0.0)
+    sass-rails (4.0.5)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.2.2)
+      sprockets (~> 2.8, < 3.0)
+      sprockets-rails (~> 2.0)
     selenium-webdriver (2.34.0)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
@@ -420,20 +433,20 @@ DEPENDENCIES
   bootstrap-datepicker-rails
   bootstrap-sass (~> 2.3.2.0)
   bootstrap-timepicker-rails-addon
-  cancan
+  cancancan (~> 1.15.0)
   capybara
   capybara-email
-  carrierwave
+  carrierwave (~> 0.9.0)
   china_city
   china_sms
   coffee-rails (~> 4.0.0)
   cohort_me
   coveralls
   daemons
-  database_cleaner (= 1.0.1)
+  database_cleaner (~> 1.0)
   delayed_job (~> 4.0.0.beta2)
   delayed_job_active_record (~> 4.0.0.beta3)
-  devise (~> 3.0.1)
+  devise (~> 3.0.0)
   devise_invitable!
   escape_utils (= 0.2.4)
   exception_notification
@@ -452,6 +465,7 @@ DEPENDENCIES
   jquery-rails
   kramdown
   mails_viewer
+  mimemagic (= 0.3.9)
   mini_magick (= 3.5.0)
   mysql2 (= 0.3.11)
   pg
@@ -461,14 +475,14 @@ DEPENDENCIES
   pry-rails
   quiet_assets
   rabl
-  rails (~> 4.0.0)
+  rails (= 4.0.13)
   rails-observers
   rails-timeago
   ransack
-  rspec-rails
+  rspec-rails (~> 2.14.0)
   ruby-graphviz
   rvm-capistrano
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.5)
   selenium-webdriver
   settingslogic
   simple_form (~> 3.0.0.rc)
@@ -485,4 +499,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.13.7
+   1.17.3
